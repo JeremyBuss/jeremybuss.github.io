@@ -1,38 +1,32 @@
 ---
-title: "Render Math With Mathjax"
-date: 2022-12-09T19:53:33+05:30
+title: "Active directory"
+date: 2026-02-12T19:53:33+05:30
 draft: false
-author: "Gurusabarish"
+author: "dd"
 tags:
-  - Markdown syntax
-  - Mathjax
-  - example
-image: /images/mathjax.png
+  - Active directory
+  - Windows
+  - Windows serveur
+image: /images/ad.png
 description: ""
 toc: true
 mathjax: true
 ---
 
-## Mathjax
+## Active directory
 
-Math equations can be rendered using [Mathjax](https://www.mathjax.org) syntax with AMS symbol support.
+TP : Mise en place et gestion d'Active Directory
 
-Optionally enable this on a per-page basis by adding `mathjax: true` to your frontmatter.
+Dans ce TP, nous avons abordé la configuration et l'administration d'Active Directory (AD), un service essentiel pour la gestion des utilisateurs, des groupes et des ressources dans un réseau d'entreprise. L'objectif était de comprendre le fonctionnement d'AD, de créer et gérer des utilisateurs et des groupes, ainsi que d'implémenter des stratégies de sécurité (GPO) pour garantir un contrôle optimal de l'accès aux ressources.
 
-Then, use `$$ ... $$` on a line by itself to render a block equation:
+Les étapes principales du TP incluaient :
 
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | < \text{negligible} $$
+Installation et configuration du serveur Active Directory : Mise en place d'un contrôleur de domaine et promotion du serveur en tant que contrôleur de domaine principal (PDC).
 
-The raw version is:
+Création et gestion des comptes utilisateurs et groupes : Ajout, modification et suppression de comptes utilisateurs et de groupes dans l'annuaire.
 
-```
-$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow P_{2}} [A(x) = 1] | < \text{negligible} $$
-```
+Gestion des stratégies de groupe (GPO) : Mise en place de stratégies de sécurité pour contrôler l'accès aux ressources et la configuration des postes de travail.
 
+Gestion des droits d'accès et des permissions : Attribution des permissions sur les dossiers partagés et les ressources du réseau.
 
-Write in-line equations with `\\( ... \\)` , like \\( x^n / y \\) . It's easy!
-
-```
-Write in-line equations with `\\( ... \\)` , like \\( x^n / y \\) . It's easy!
-```
-
+Ce TP a permis de se familiariser avec l'administration de serveurs sous Windows Server, ainsi qu'avec les outils d'administration d'Active Directory tels que Active Directory Users and Computers et Group Policy Management Console.

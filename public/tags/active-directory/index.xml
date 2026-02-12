@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Active Directory on Hugo Profile</title>
+    <link>http://localhost:1313/tags/active-directory/</link>
+    <description>Recent content in Active Directory on Hugo Profile</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 12 Feb 2026 19:53:33 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/active-directory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active directory</title>
+      <link>http://localhost:1313/projets/math/</link>
+      <pubDate>Thu, 12 Feb 2026 19:53:33 +0530</pubDate>
+      <guid>http://localhost:1313/projets/math/</guid>
+      <description>&lt;h2 id=&#34;active-directory&#34;&gt;Active directory&lt;/h2&gt;&#xA;&lt;p&gt;TP : Mise en place et gestion d&amp;rsquo;Active Directory&lt;/p&gt;&#xA;&lt;p&gt;Dans ce TP, nous avons abordé la configuration et l&amp;rsquo;administration d&amp;rsquo;Active Directory (AD), un service essentiel pour la gestion des utilisateurs, des groupes et des ressources dans un réseau d&amp;rsquo;entreprise. L&amp;rsquo;objectif était de comprendre le fonctionnement d&amp;rsquo;AD, de créer et gérer des utilisateurs et des groupes, ainsi que d&amp;rsquo;implémenter des stratégies de sécurité (GPO) pour garantir un contrôle optimal de l&amp;rsquo;accès aux ressources.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
